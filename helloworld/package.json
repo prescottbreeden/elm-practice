@@ -1,0 +1,11 @@
+{
+  "dependencies": { },
+  "scripts": {
+    "watch": "chokidar '**/*.elm' -c 'elm make ./src/Main.elm --output=dist/index.js --debug'",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "live-server": "^1.2.1"
+  }
+}

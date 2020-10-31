@@ -1,0 +1,65 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  background-color: #333;
+  color: #eee;
+}
+
+header {
+  background-color: steelblue;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+h1 {
+  padding: 0 2rem;
+  margin: 0;
+  line-height: 5rem;
+}
+
+p {
+  padding: 0 2rem;
+  margin: 0;
+  line-height: 5rem;
+}
+a {
+  color: #eee;
+  margin: 0 1rem;
+  letter-spacing: 1px;
+  color: steelblue;
+}
+a:hover {
+  color: salmon;
+}
+
+input {
+  margin: 1rem 1rem;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+li {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  color: #eee;
+  background-color: steelblue;
+  border-radius: 3px;
+  border: 1px solid steelblue;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.btn--delete {
+  color: red;
+  background-color: transparent;
+  border: none;
+}
